@@ -1,0 +1,20 @@
+name: LootBoxes
+main: me.yhl.Dungeon
+author: yhl
+version: 1.0
+depend: [Vault]
+
+commands:
+    LootBox:
+        aliases: [lb]
+        
+permissions:
+  lootbox.create:
+    description: Create a lootbox.
+    default: op
+  lootbox.reload:
+    description: Reloads the config.
+    default: op
+  lootbox.help:
+    description: gets help.
+    default: op

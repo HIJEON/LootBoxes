@@ -1,0 +1,52 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       General                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+#height, width and length of the cuboid
+height: 2
+width: 5
+length: 5
+
+#Put a chest in the cube?
+chest: true
+
+#Number of items in a chest
+numofitems: 5
+
+#What should the cube be made out of?
+block: OBSIDIAN
+
+#Set the borders of the map (ex: you want them to spawn from X 0-4000)
+X: 4000
+Z: 4000
+############################################################
+# +------------------------------------------------------+ #
+# |                       Items                          | #
+# +------------------------------------------------------+ #
+############################################################
+
+#Copy from the '1' down to 'chance' and paste it under it.
+
+
+items:
+  '1':
+    item: DIAMOND_PICKAXE
+    name: '&cDiamond Pickaxe'
+    lore:
+    - '&4A Diamond Pickaxe!'
+    amount: 1
+    enchantments:
+    - 'LOOT_BONUS_BLOCKS;5'
+    - 'DURABILITY;10'
+    chance: 100
+  '2':
+    item: PAPER
+    name: '&2Banknote'
+    lore:
+    - '&2Amount: &7$&a1000'
+    amount: 1
+    enchantments:
+    - 'DURABILITY;100'
+    chance: 0
